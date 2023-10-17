@@ -1,5 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Data;
+using System.Data.SqlClient;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -27,6 +29,26 @@ namespace Negocio
                 contacto.Equals("") || correo.Equals("") || direccion.Equals("") || sexo.Equals(""))
             {
                 MessageBox.Show("Debe ingresar todos los datos", "Registro",MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+            else
+            {
+                SqlCommand con = new SqlCommand("SP_RegistrarPersonas", objConectar.connection);
+                con.CommandType = CommandType.StoredProcedure;
+                con.Parameters.AddWithValue("@id", id);
+                con.Parameters.AddWithValue("@p_nombre", p_nombre);
+                con.Parameters.AddWithValue("@s_nombre", s_nombre);
+                con.Parameters.AddWithValue("p_apellido", p_apellido);
+                con.Parameters.AddWithValue("s_apellido", s_apellido);
+                con.Parameters.AddWithValue("contacto", contacto);
+                con.Parameters.AddWithValue("correo", correo);
+                con.Parameters.AddWithValue("direccion", direccion);
+                con.Parameters.AddWithValue("sexo", sexo);
+
+                objConectar.connection.Open();
+                con.ExecuteNonQuery();
+                objConectar.connection.Close();
+                MessageBox.Show("Persona registrada con éxito", "Registro", MessageBoxButtons.OK, MessageBoxIcon.Information);
+
             }
         }
 

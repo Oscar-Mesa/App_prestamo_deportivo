@@ -16,5 +16,18 @@ namespace App_prestamos_deportivo
         {
             InitializeComponent();
         }
+
+        private void btn_cancelar_Click(object sender, EventArgs e)
+        {
+            txt_cantidad.Clear();
+            txt_codigo.Clear();
+            txt_descripcion.Clear();
+            txt_identificacion.Clear();
+            txt_nombre.Clear();
+            txt_nombre_implemento.Clear();
+            txt_observaciones.Clear();
+            dtg_prestamo.DataSource = null;
+            txt_identificacion.Focus();
+        }
     }
 }

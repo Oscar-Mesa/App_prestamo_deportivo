@@ -46,7 +46,7 @@
             this.txt_codigo.Font = new System.Drawing.Font("Roboto", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
             this.txt_codigo.Hint = "Código";
             this.txt_codigo.LeadingIcon = null;
-            this.txt_codigo.Location = new System.Drawing.Point(25, 12);
+            this.txt_codigo.Location = new System.Drawing.Point(12, 12);
             this.txt_codigo.MaxLength = 50;
             this.txt_codigo.MouseState = MaterialSkin.MouseState.OUT;
             this.txt_codigo.Multiline = false;
@@ -64,7 +64,7 @@
             this.txt_nombre.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
             this.txt_nombre.Hint = "Nombre";
             this.txt_nombre.LeadingIcon = null;
-            this.txt_nombre.Location = new System.Drawing.Point(307, 12);
+            this.txt_nombre.Location = new System.Drawing.Point(294, 12);
             this.txt_nombre.MaxLength = 50;
             this.txt_nombre.MouseState = MaterialSkin.MouseState.OUT;
             this.txt_nombre.Multiline = false;
@@ -82,7 +82,7 @@
             this.txt_cantidad.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
             this.txt_cantidad.Hint = "Cantidad";
             this.txt_cantidad.LeadingIcon = null;
-            this.txt_cantidad.Location = new System.Drawing.Point(25, 190);
+            this.txt_cantidad.Location = new System.Drawing.Point(12, 174);
             this.txt_cantidad.MaxLength = 50;
             this.txt_cantidad.MouseState = MaterialSkin.MouseState.OUT;
             this.txt_cantidad.Multiline = false;
@@ -100,7 +100,7 @@
             this.txt_valor.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
             this.txt_valor.Hint = "Valor";
             this.txt_valor.LeadingIcon = null;
-            this.txt_valor.Location = new System.Drawing.Point(307, 190);
+            this.txt_valor.Location = new System.Drawing.Point(294, 174);
             this.txt_valor.MaxLength = 50;
             this.txt_valor.MouseState = MaterialSkin.MouseState.OUT;
             this.txt_valor.Multiline = false;
@@ -117,7 +117,7 @@
             this.btn_actualizar.Depth = 0;
             this.btn_actualizar.HighEmphasis = true;
             this.btn_actualizar.Icon = null;
-            this.btn_actualizar.Location = new System.Drawing.Point(281, 249);
+            this.btn_actualizar.Location = new System.Drawing.Point(268, 233);
             this.btn_actualizar.Margin = new System.Windows.Forms.Padding(4, 6, 4, 6);
             this.btn_actualizar.MouseState = MaterialSkin.MouseState.HOVER;
             this.btn_actualizar.Name = "btn_actualizar";
@@ -136,7 +136,7 @@
             this.btn_guardar.Depth = 0;
             this.btn_guardar.HighEmphasis = true;
             this.btn_guardar.Icon = null;
-            this.btn_guardar.Location = new System.Drawing.Point(398, 249);
+            this.btn_guardar.Location = new System.Drawing.Point(385, 233);
             this.btn_guardar.Margin = new System.Windows.Forms.Padding(4, 6, 4, 6);
             this.btn_guardar.MouseState = MaterialSkin.MouseState.HOVER;
             this.btn_guardar.Name = "btn_guardar";
@@ -155,7 +155,7 @@
             this.btn_cancelar.Depth = 0;
             this.btn_cancelar.HighEmphasis = true;
             this.btn_cancelar.Icon = null;
-            this.btn_cancelar.Location = new System.Drawing.Point(490, 249);
+            this.btn_cancelar.Location = new System.Drawing.Point(477, 233);
             this.btn_cancelar.Margin = new System.Windows.Forms.Padding(4, 6, 4, 6);
             this.btn_cancelar.MouseState = MaterialSkin.MouseState.HOVER;
             this.btn_cancelar.Name = "btn_cancelar";
@@ -177,7 +177,7 @@
             this.txt_descripcion.Depth = 0;
             this.txt_descripcion.HideSelection = true;
             this.txt_descripcion.Hint = "Descripción";
-            this.txt_descripcion.Location = new System.Drawing.Point(25, 68);
+            this.txt_descripcion.Location = new System.Drawing.Point(12, 68);
             this.txt_descripcion.MaxLength = 32767;
             this.txt_descripcion.MouseState = MaterialSkin.MouseState.OUT;
             this.txt_descripcion.Name = "txt_descripcion";
@@ -198,7 +198,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(611, 303);
+            this.ClientSize = new System.Drawing.Size(588, 286);
             this.Controls.Add(this.txt_descripcion);
             this.Controls.Add(this.btn_cancelar);
             this.Controls.Add(this.btn_guardar);

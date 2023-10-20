@@ -50,11 +50,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Form1.cs">
+    <Compile Include="frm_moduloUsuario.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form1.Designer.cs">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <Compile Include="frm_moduloUsuario.Designer.cs">
+      <DependentUpon>frm_moduloUsuario.cs</DependentUpon>
     </Compile>
     <Compile Include="frm_implementos.cs">
       <SubType>Form</SubType>
@@ -62,13 +62,22 @@
     <Compile Include="frm_implementos.Designer.cs">
       <DependentUpon>frm_implementos.cs</DependentUpon>
     </Compile>
+    <Compile Include="frm_prestamos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_prestamos.Designer.cs">
+      <DependentUpon>frm_prestamos.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="Form1.resx">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <EmbeddedResource Include="frm_moduloUsuario.resx">
+      <DependentUpon>frm_moduloUsuario.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="frm_implementos.resx">
       <DependentUpon>frm_implementos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_prestamos.resx">
+      <DependentUpon>frm_prestamos.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

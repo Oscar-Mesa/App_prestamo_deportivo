@@ -42,7 +42,7 @@
             this.txt_usuario.Font = new System.Drawing.Font("Roboto", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
             this.txt_usuario.Hint = "Usuario";
             this.txt_usuario.LeadingIcon = null;
-            this.txt_usuario.Location = new System.Drawing.Point(63, 39);
+            this.txt_usuario.Location = new System.Drawing.Point(45, 37);
             this.txt_usuario.MaxLength = 50;
             this.txt_usuario.MouseState = MaterialSkin.MouseState.OUT;
             this.txt_usuario.Multiline = false;
@@ -60,7 +60,7 @@
             this.txt_contraseña.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
             this.txt_contraseña.Hint = "Contraseña";
             this.txt_contraseña.LeadingIcon = null;
-            this.txt_contraseña.Location = new System.Drawing.Point(63, 95);
+            this.txt_contraseña.Location = new System.Drawing.Point(45, 93);
             this.txt_contraseña.MaxLength = 50;
             this.txt_contraseña.MouseState = MaterialSkin.MouseState.OUT;
             this.txt_contraseña.Multiline = false;
@@ -78,7 +78,7 @@
             this.btn_cancelar.Depth = 0;
             this.btn_cancelar.HighEmphasis = true;
             this.btn_cancelar.Icon = null;
-            this.btn_cancelar.Location = new System.Drawing.Point(291, 163);
+            this.btn_cancelar.Location = new System.Drawing.Point(273, 161);
             this.btn_cancelar.Margin = new System.Windows.Forms.Padding(4, 6, 4, 6);
             this.btn_cancelar.MouseState = MaterialSkin.MouseState.HOVER;
             this.btn_cancelar.Name = "btn_cancelar";
@@ -98,7 +98,7 @@
             this.btn_ingresar.Depth = 0;
             this.btn_ingresar.HighEmphasis = true;
             this.btn_ingresar.Icon = null;
-            this.btn_ingresar.Location = new System.Drawing.Point(192, 163);
+            this.btn_ingresar.Location = new System.Drawing.Point(174, 161);
             this.btn_ingresar.Margin = new System.Windows.Forms.Padding(4, 6, 4, 6);
             this.btn_ingresar.MouseState = MaterialSkin.MouseState.HOVER;
             this.btn_ingresar.Name = "btn_ingresar";
@@ -114,7 +114,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(455, 247);
+            this.ClientSize = new System.Drawing.Size(408, 219);
             this.Controls.Add(this.btn_ingresar);
             this.Controls.Add(this.btn_cancelar);
             this.Controls.Add(this.txt_contraseña);

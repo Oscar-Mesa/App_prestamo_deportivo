@@ -61,7 +61,7 @@
             this.txt_nombre.AnimateReadOnly = false;
             this.txt_nombre.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.txt_nombre.Depth = 0;
-            this.txt_nombre.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
+            this.txt_nombre.Font = new System.Drawing.Font("Roboto", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
             this.txt_nombre.Hint = "Nombre";
             this.txt_nombre.LeadingIcon = null;
             this.txt_nombre.Location = new System.Drawing.Point(294, 12);
@@ -79,7 +79,7 @@
             this.txt_cantidad.AnimateReadOnly = false;
             this.txt_cantidad.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.txt_cantidad.Depth = 0;
-            this.txt_cantidad.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
+            this.txt_cantidad.Font = new System.Drawing.Font("Roboto", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
             this.txt_cantidad.Hint = "Cantidad";
             this.txt_cantidad.LeadingIcon = null;
             this.txt_cantidad.Location = new System.Drawing.Point(12, 174);
@@ -97,7 +97,7 @@
             this.txt_valor.AnimateReadOnly = false;
             this.txt_valor.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.txt_valor.Depth = 0;
-            this.txt_valor.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
+            this.txt_valor.Font = new System.Drawing.Font("Roboto", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
             this.txt_valor.Hint = "Valor";
             this.txt_valor.LeadingIcon = null;
             this.txt_valor.Location = new System.Drawing.Point(294, 174);
@@ -207,6 +207,7 @@
             this.Controls.Add(this.txt_cantidad);
             this.Controls.Add(this.txt_nombre);
             this.Controls.Add(this.txt_codigo);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
             this.Name = "frm_implementos";
             this.Text = "frm_implementos";
             this.ResumeLayout(false);

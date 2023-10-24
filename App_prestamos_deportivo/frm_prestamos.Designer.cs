@@ -66,7 +66,7 @@
             this.txt_nombre.AnimateReadOnly = false;
             this.txt_nombre.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.txt_nombre.Depth = 0;
-            this.txt_nombre.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
+            this.txt_nombre.Font = new System.Drawing.Font("Roboto", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
             this.txt_nombre.Hint = "Nombres persona";
             this.txt_nombre.LeadingIcon = null;
             this.txt_nombre.Location = new System.Drawing.Point(277, 11);
@@ -85,7 +85,7 @@
             this.txt_codigo.AnimateReadOnly = false;
             this.txt_codigo.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.txt_codigo.Depth = 0;
-            this.txt_codigo.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
+            this.txt_codigo.Font = new System.Drawing.Font("Roboto", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
             this.txt_codigo.Hint = "Código del implemento";
             this.txt_codigo.LeadingIcon = null;
             this.txt_codigo.Location = new System.Drawing.Point(12, 68);
@@ -103,7 +103,7 @@
             this.txt_descripcion.AnimateReadOnly = false;
             this.txt_descripcion.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.txt_descripcion.Depth = 0;
-            this.txt_descripcion.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
+            this.txt_descripcion.Font = new System.Drawing.Font("Roboto", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
             this.txt_descripcion.Hint = "Descripción";
             this.txt_descripcion.LeadingIcon = null;
             this.txt_descripcion.Location = new System.Drawing.Point(276, 67);
@@ -122,7 +122,7 @@
             this.txt_existencia.AnimateReadOnly = false;
             this.txt_existencia.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.txt_existencia.Depth = 0;
-            this.txt_existencia.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
+            this.txt_existencia.Font = new System.Drawing.Font("Roboto", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
             this.txt_existencia.Hint = "Existencias";
             this.txt_existencia.LeadingIcon = null;
             this.txt_existencia.Location = new System.Drawing.Point(12, 124);
@@ -141,7 +141,7 @@
             this.txt_nombre_implemento.AnimateReadOnly = false;
             this.txt_nombre_implemento.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.txt_nombre_implemento.Depth = 0;
-            this.txt_nombre_implemento.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
+            this.txt_nombre_implemento.Font = new System.Drawing.Font("Roboto", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
             this.txt_nombre_implemento.Hint = "Nombre del implemento";
             this.txt_nombre_implemento.LeadingIcon = null;
             this.txt_nombre_implemento.Location = new System.Drawing.Point(277, 123);
@@ -160,7 +160,7 @@
             this.txt_cantidad.AnimateReadOnly = false;
             this.txt_cantidad.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.txt_cantidad.Depth = 0;
-            this.txt_cantidad.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
+            this.txt_cantidad.Font = new System.Drawing.Font("Roboto", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
             this.txt_cantidad.Hint = "Cantidad a prestar";
             this.txt_cantidad.LeadingIcon = null;
             this.txt_cantidad.Location = new System.Drawing.Point(12, 180);
@@ -275,7 +275,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(632, 540);
+            this.ClientSize = new System.Drawing.Size(614, 540);
             this.Controls.Add(this.dtg_prestamo);
             this.Controls.Add(this.btn_agregar);
             this.Controls.Add(this.txt_observaciones);
@@ -288,6 +288,7 @@
             this.Controls.Add(this.txt_codigo);
             this.Controls.Add(this.txt_nombre);
             this.Controls.Add(this.txt_identificacion);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.SizableToolWindow;
             this.Name = "frm_prestamos";
             this.Text = "frm_prestamos";
             ((System.ComponentModel.ISupportInitialize)(this.dtg_prestamo)).EndInit();

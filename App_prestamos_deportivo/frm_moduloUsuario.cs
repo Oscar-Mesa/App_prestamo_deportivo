@@ -21,5 +21,10 @@ namespace App_prestamos_deportivo
         {
 
         }
+
+        private void frm_moduloUsuario_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

@@ -50,7 +50,7 @@
             this.txt_identificacion.Font = new System.Drawing.Font("Roboto", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
             this.txt_identificacion.Hint = "Identificación";
             this.txt_identificacion.LeadingIcon = null;
-            this.txt_identificacion.Location = new System.Drawing.Point(27, 12);
+            this.txt_identificacion.Location = new System.Drawing.Point(12, 12);
             this.txt_identificacion.MaxLength = 50;
             this.txt_identificacion.MouseState = MaterialSkin.MouseState.OUT;
             this.txt_identificacion.Multiline = false;
@@ -69,7 +69,7 @@
             this.txt_primer_nombre.Font = new System.Drawing.Font("Roboto", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
             this.txt_primer_nombre.Hint = "Primer Nombre";
             this.txt_primer_nombre.LeadingIcon = null;
-            this.txt_primer_nombre.Location = new System.Drawing.Point(224, 12);
+            this.txt_primer_nombre.Location = new System.Drawing.Point(209, 12);
             this.txt_primer_nombre.MaxLength = 50;
             this.txt_primer_nombre.MouseState = MaterialSkin.MouseState.OUT;
             this.txt_primer_nombre.Multiline = false;
@@ -87,7 +87,7 @@
             this.txt_segundo_nombre.Font = new System.Drawing.Font("Roboto", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
             this.txt_segundo_nombre.Hint = "Segundo Nombre";
             this.txt_segundo_nombre.LeadingIcon = null;
-            this.txt_segundo_nombre.Location = new System.Drawing.Point(445, 12);
+            this.txt_segundo_nombre.Location = new System.Drawing.Point(430, 12);
             this.txt_segundo_nombre.MaxLength = 50;
             this.txt_segundo_nombre.MouseState = MaterialSkin.MouseState.OUT;
             this.txt_segundo_nombre.Multiline = false;
@@ -105,7 +105,7 @@
             this.txt_primer_apellido.Font = new System.Drawing.Font("Roboto", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
             this.txt_primer_apellido.Hint = "Primer Apellido";
             this.txt_primer_apellido.LeadingIcon = null;
-            this.txt_primer_apellido.Location = new System.Drawing.Point(27, 78);
+            this.txt_primer_apellido.Location = new System.Drawing.Point(12, 78);
             this.txt_primer_apellido.MaxLength = 50;
             this.txt_primer_apellido.MouseState = MaterialSkin.MouseState.OUT;
             this.txt_primer_apellido.Multiline = false;
@@ -123,7 +123,7 @@
             this.txt_segundo_apellido.Font = new System.Drawing.Font("Roboto", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
             this.txt_segundo_apellido.Hint = "Segundo Apellido";
             this.txt_segundo_apellido.LeadingIcon = null;
-            this.txt_segundo_apellido.Location = new System.Drawing.Point(224, 78);
+            this.txt_segundo_apellido.Location = new System.Drawing.Point(209, 78);
             this.txt_segundo_apellido.MaxLength = 50;
             this.txt_segundo_apellido.MouseState = MaterialSkin.MouseState.OUT;
             this.txt_segundo_apellido.Multiline = false;
@@ -141,7 +141,7 @@
             this.txt_contacto.Font = new System.Drawing.Font("Roboto", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
             this.txt_contacto.Hint = "Contacto";
             this.txt_contacto.LeadingIcon = null;
-            this.txt_contacto.Location = new System.Drawing.Point(445, 78);
+            this.txt_contacto.Location = new System.Drawing.Point(430, 78);
             this.txt_contacto.MaxLength = 50;
             this.txt_contacto.MouseState = MaterialSkin.MouseState.OUT;
             this.txt_contacto.Multiline = false;
@@ -159,7 +159,7 @@
             this.txt_correo.Font = new System.Drawing.Font("Roboto", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
             this.txt_correo.Hint = "Correo";
             this.txt_correo.LeadingIcon = null;
-            this.txt_correo.Location = new System.Drawing.Point(27, 134);
+            this.txt_correo.Location = new System.Drawing.Point(12, 134);
             this.txt_correo.MaxLength = 50;
             this.txt_correo.MouseState = MaterialSkin.MouseState.OUT;
             this.txt_correo.Multiline = false;
@@ -187,7 +187,7 @@
             "Masculino",
             "Femenino",
             "Transformer"});
-            this.cbx_genero.Location = new System.Drawing.Point(445, 134);
+            this.cbx_genero.Location = new System.Drawing.Point(430, 134);
             this.cbx_genero.MaxDropDownItems = 4;
             this.cbx_genero.MouseState = MaterialSkin.MouseState.OUT;
             this.cbx_genero.Name = "cbx_genero";
@@ -203,7 +203,7 @@
             this.txt_direccion.Font = new System.Drawing.Font("Roboto", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
             this.txt_direccion.Hint = "Dirección";
             this.txt_direccion.LeadingIcon = null;
-            this.txt_direccion.Location = new System.Drawing.Point(27, 190);
+            this.txt_direccion.Location = new System.Drawing.Point(12, 190);
             this.txt_direccion.MaxLength = 50;
             this.txt_direccion.MouseState = MaterialSkin.MouseState.OUT;
             this.txt_direccion.Multiline = false;
@@ -220,7 +220,7 @@
             this.btn_cancelar.Depth = 0;
             this.btn_cancelar.HighEmphasis = true;
             this.btn_cancelar.Icon = null;
-            this.btn_cancelar.Location = new System.Drawing.Point(553, 249);
+            this.btn_cancelar.Location = new System.Drawing.Point(538, 249);
             this.btn_cancelar.Margin = new System.Windows.Forms.Padding(4, 6, 4, 6);
             this.btn_cancelar.MouseState = MaterialSkin.MouseState.HOVER;
             this.btn_cancelar.Name = "btn_cancelar";
@@ -239,7 +239,7 @@
             this.btn_guardar.Depth = 0;
             this.btn_guardar.HighEmphasis = true;
             this.btn_guardar.Icon = null;
-            this.btn_guardar.Location = new System.Drawing.Point(461, 249);
+            this.btn_guardar.Location = new System.Drawing.Point(446, 249);
             this.btn_guardar.Margin = new System.Windows.Forms.Padding(4, 6, 4, 6);
             this.btn_guardar.MouseState = MaterialSkin.MouseState.HOVER;
             this.btn_guardar.Name = "btn_guardar";
@@ -258,7 +258,7 @@
             this.btn_actualizar.Depth = 0;
             this.btn_actualizar.HighEmphasis = true;
             this.btn_actualizar.Icon = null;
-            this.btn_actualizar.Location = new System.Drawing.Point(344, 249);
+            this.btn_actualizar.Location = new System.Drawing.Point(329, 249);
             this.btn_actualizar.Margin = new System.Windows.Forms.Padding(4, 6, 4, 6);
             this.btn_actualizar.MouseState = MaterialSkin.MouseState.HOVER;
             this.btn_actualizar.Name = "btn_actualizar";
@@ -274,7 +274,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(668, 303);
+            this.ClientSize = new System.Drawing.Size(656, 303);
             this.Controls.Add(this.btn_cancelar);
             this.Controls.Add(this.btn_guardar);
             this.Controls.Add(this.btn_actualizar);
@@ -287,8 +287,10 @@
             this.Controls.Add(this.txt_segundo_nombre);
             this.Controls.Add(this.txt_primer_nombre);
             this.Controls.Add(this.txt_identificacion);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
             this.Name = "frm_moduloUsuario";
             this.Text = "Form1";
+            this.Load += new System.EventHandler(this.frm_moduloUsuario_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

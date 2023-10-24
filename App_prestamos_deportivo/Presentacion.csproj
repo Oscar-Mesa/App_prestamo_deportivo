@@ -50,6 +50,17 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="dbs_pretamos_deportivosDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dbs_pretamos_deportivosDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="frm_configuracion.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_configuracion.Designer.cs">
+      <DependentUpon>frm_configuracion.cs</DependentUpon>
+    </Compile>
     <Compile Include="frm_login.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -76,6 +87,9 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="frm_configuracion.resx">
+      <DependentUpon>frm_configuracion.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="frm_login.resx">
       <DependentUpon>frm_login.cs</DependentUpon>
     </EmbeddedResource>
@@ -97,6 +111,17 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <None Include="dbs_pretamos_deportivosDataSet.xsc">
+      <DependentUpon>dbs_pretamos_deportivosDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="dbs_pretamos_deportivosDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dbs_pretamos_deportivosDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="dbs_pretamos_deportivosDataSet.xss">
+      <DependentUpon>dbs_pretamos_deportivosDataSet.xsd</DependentUpon>
+    </None>
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>

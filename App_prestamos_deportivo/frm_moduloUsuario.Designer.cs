@@ -50,7 +50,7 @@
             this.txt_identificacion.Font = new System.Drawing.Font("Roboto", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
             this.txt_identificacion.Hint = "Identificación";
             this.txt_identificacion.LeadingIcon = null;
-            this.txt_identificacion.Location = new System.Drawing.Point(12, 12);
+            this.txt_identificacion.Location = new System.Drawing.Point(12, 22);
             this.txt_identificacion.MaxLength = 50;
             this.txt_identificacion.MouseState = MaterialSkin.MouseState.OUT;
             this.txt_identificacion.Multiline = false;
@@ -69,7 +69,7 @@
             this.txt_primer_nombre.Font = new System.Drawing.Font("Roboto", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
             this.txt_primer_nombre.Hint = "Primer Nombre";
             this.txt_primer_nombre.LeadingIcon = null;
-            this.txt_primer_nombre.Location = new System.Drawing.Point(209, 12);
+            this.txt_primer_nombre.Location = new System.Drawing.Point(209, 22);
             this.txt_primer_nombre.MaxLength = 50;
             this.txt_primer_nombre.MouseState = MaterialSkin.MouseState.OUT;
             this.txt_primer_nombre.Multiline = false;
@@ -87,7 +87,7 @@
             this.txt_segundo_nombre.Font = new System.Drawing.Font("Roboto", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
             this.txt_segundo_nombre.Hint = "Segundo Nombre";
             this.txt_segundo_nombre.LeadingIcon = null;
-            this.txt_segundo_nombre.Location = new System.Drawing.Point(430, 12);
+            this.txt_segundo_nombre.Location = new System.Drawing.Point(430, 22);
             this.txt_segundo_nombre.MaxLength = 50;
             this.txt_segundo_nombre.MouseState = MaterialSkin.MouseState.OUT;
             this.txt_segundo_nombre.Multiline = false;
@@ -289,7 +289,7 @@
             this.Controls.Add(this.txt_identificacion);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
             this.Name = "frm_moduloUsuario";
-            this.Text = "Form1";
+            this.Text = "Usuario";
             this.Load += new System.EventHandler(this.frm_moduloUsuario_Load);
             this.ResumeLayout(false);
             this.PerformLayout();

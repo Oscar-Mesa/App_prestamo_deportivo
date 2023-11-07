@@ -35,7 +35,7 @@
             this.txt_existencias = new MaterialSkin.Controls.MaterialTextBox();
             this.txt_nombre_implemento = new MaterialSkin.Controls.MaterialTextBox();
             this.txt_cantidad_prestamo = new MaterialSkin.Controls.MaterialTextBox();
-            this.btn_prestamo = new MaterialSkin.Controls.MaterialButton();
+            this.btn_prestar = new MaterialSkin.Controls.MaterialButton();
             this.btn_cancelar = new MaterialSkin.Controls.MaterialButton();
             this.txt_observaciones = new MaterialSkin.Controls.MaterialMultiLineTextBox2();
             this.btn_agregar = new MaterialSkin.Controls.MaterialButton();
@@ -62,6 +62,7 @@
             this.txt_id.TabIndex = 0;
             this.txt_id.Text = "";
             this.txt_id.TrailingIcon = null;
+            this.txt_id.KeyUp += new System.Windows.Forms.KeyEventHandler(this.txt_id_KeyUp);
             // 
             // txt_nombre
             // 
@@ -176,24 +177,24 @@
             this.txt_cantidad_prestamo.Text = "";
             this.txt_cantidad_prestamo.TrailingIcon = null;
             // 
-            // btn_prestamo
+            // btn_prestar
             // 
-            this.btn_prestamo.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
-            this.btn_prestamo.Density = MaterialSkin.Controls.MaterialButton.MaterialButtonDensity.Default;
-            this.btn_prestamo.Depth = 0;
-            this.btn_prestamo.HighEmphasis = true;
-            this.btn_prestamo.Icon = null;
-            this.btn_prestamo.Location = new System.Drawing.Point(116, 243);
-            this.btn_prestamo.Margin = new System.Windows.Forms.Padding(4, 6, 4, 6);
-            this.btn_prestamo.MouseState = MaterialSkin.MouseState.HOVER;
-            this.btn_prestamo.Name = "btn_prestamo";
-            this.btn_prestamo.NoAccentTextColor = System.Drawing.Color.Empty;
-            this.btn_prestamo.Size = new System.Drawing.Size(85, 36);
-            this.btn_prestamo.TabIndex = 7;
-            this.btn_prestamo.Text = "PRESTAR";
-            this.btn_prestamo.Type = MaterialSkin.Controls.MaterialButton.MaterialButtonType.Contained;
-            this.btn_prestamo.UseAccentColor = false;
-            this.btn_prestamo.UseVisualStyleBackColor = true;
+            this.btn_prestar.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
+            this.btn_prestar.Density = MaterialSkin.Controls.MaterialButton.MaterialButtonDensity.Default;
+            this.btn_prestar.Depth = 0;
+            this.btn_prestar.HighEmphasis = true;
+            this.btn_prestar.Icon = null;
+            this.btn_prestar.Location = new System.Drawing.Point(116, 243);
+            this.btn_prestar.Margin = new System.Windows.Forms.Padding(4, 6, 4, 6);
+            this.btn_prestar.MouseState = MaterialSkin.MouseState.HOVER;
+            this.btn_prestar.Name = "btn_prestar";
+            this.btn_prestar.NoAccentTextColor = System.Drawing.Color.Empty;
+            this.btn_prestar.Size = new System.Drawing.Size(85, 36);
+            this.btn_prestar.TabIndex = 7;
+            this.btn_prestar.Text = "PRESTAR";
+            this.btn_prestar.Type = MaterialSkin.Controls.MaterialButton.MaterialButtonType.Contained;
+            this.btn_prestar.UseAccentColor = false;
+            this.btn_prestar.UseVisualStyleBackColor = true;
             // 
             // btn_cancelar
             // 
@@ -259,7 +260,6 @@
             this.btn_agregar.Type = MaterialSkin.Controls.MaterialButton.MaterialButtonType.Contained;
             this.btn_agregar.UseAccentColor = false;
             this.btn_agregar.UseVisualStyleBackColor = true;
-            this.btn_agregar.Click += new System.EventHandler(this.btn_agregar_Click);
             // 
             // dtg_prestamo
             // 
@@ -299,7 +299,7 @@
             this.Controls.Add(this.btn_agregar);
             this.Controls.Add(this.txt_observaciones);
             this.Controls.Add(this.btn_cancelar);
-            this.Controls.Add(this.btn_prestamo);
+            this.Controls.Add(this.btn_prestar);
             this.Controls.Add(this.txt_cantidad_prestamo);
             this.Controls.Add(this.txt_nombre_implemento);
             this.Controls.Add(this.txt_existencias);
@@ -325,7 +325,7 @@
         private MaterialSkin.Controls.MaterialTextBox txt_existencias;
         private MaterialSkin.Controls.MaterialTextBox txt_nombre_implemento;
         private MaterialSkin.Controls.MaterialTextBox txt_cantidad_prestamo;
-        private MaterialSkin.Controls.MaterialButton btn_prestamo;
+        private MaterialSkin.Controls.MaterialButton btn_prestar;
         private MaterialSkin.Controls.MaterialButton btn_cancelar;
         private MaterialSkin.Controls.MaterialMultiLineTextBox2 txt_observaciones;
         private MaterialSkin.Controls.MaterialButton btn_agregar;

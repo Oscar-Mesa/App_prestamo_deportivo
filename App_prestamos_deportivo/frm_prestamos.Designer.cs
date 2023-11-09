@@ -309,7 +309,7 @@
             this.Controls.Add(this.txt_id);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.SizableToolWindow;
             this.Name = "frm_prestamos";
-            this.Text = "frm_prestamos";
+            this.Text = "FORMULARIO PRESTAMOS";
             ((System.ComponentModel.ISupportInitialize)(this.dtg_prestamo)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();

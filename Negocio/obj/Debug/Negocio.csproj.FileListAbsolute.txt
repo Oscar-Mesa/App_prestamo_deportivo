@@ -1,0 +1,6 @@
+E:\TODO\Programacion\Clone git\App_prestamo_deportivo\Negocio\bin\Debug\Negocio.dll
+E:\TODO\Programacion\Clone git\App_prestamo_deportivo\Negocio\bin\Debug\Negocio.pdb
+E:\TODO\Programacion\Clone git\App_prestamo_deportivo\Negocio\obj\Debug\Negocio.csproj.AssemblyReference.cache
+E:\TODO\Programacion\Clone git\App_prestamo_deportivo\Negocio\obj\Debug\Negocio.csproj.CoreCompileInputs.cache
+E:\TODO\Programacion\Clone git\App_prestamo_deportivo\Negocio\obj\Debug\Negocio.dll
+E:\TODO\Programacion\Clone git\App_prestamo_deportivo\Negocio\obj\Debug\Negocio.pdb

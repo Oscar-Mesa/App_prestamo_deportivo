@@ -289,7 +289,7 @@
             this.Controls.Add(this.txt_identificacion);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
             this.Name = "frm_moduloUsuario";
-            this.Text = "Usuario";
+            this.Text = "MÓDULO - REGISTRO USUARIOS";
             this.Load += new System.EventHandler(this.frm_moduloUsuario_Load);
             this.ResumeLayout(false);
             this.PerformLayout();

@@ -209,7 +209,7 @@
             this.Controls.Add(this.txt_codigo);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
             this.Name = "frm_implementos";
-            this.Text = "frm_implementos";
+            this.Text = "FORMULARIO IMPLEMENTOS";
             this.ResumeLayout(false);
             this.PerformLayout();
 

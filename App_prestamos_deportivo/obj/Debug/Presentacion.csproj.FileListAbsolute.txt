@@ -29,3 +29,20 @@ C:\Users\AP-SE105-01\Desktop\CLONE\Dulfran\App_prestamo_deportivo\App_prestamos_
 C:\Users\AP-SE105-01\Desktop\CLONE\Dulfran\App_prestamo_deportivo\App_prestamos_deportivo\obj\Debug\Presentacion.csproj.CopyComplete
 C:\Users\AP-SE105-01\Desktop\CLONE\Dulfran\App_prestamo_deportivo\App_prestamos_deportivo\obj\Debug\App_prestamos_deportivo.exe
 C:\Users\AP-SE105-01\Desktop\CLONE\Dulfran\App_prestamo_deportivo\App_prestamos_deportivo\obj\Debug\App_prestamos_deportivo.pdb
+E:\TODO\Programacion\Clone git\App_prestamo_deportivo\App_prestamos_deportivo\bin\Debug\App_prestamos_deportivo.exe.config
+E:\TODO\Programacion\Clone git\App_prestamo_deportivo\App_prestamos_deportivo\bin\Debug\App_prestamos_deportivo.exe
+E:\TODO\Programacion\Clone git\App_prestamo_deportivo\App_prestamos_deportivo\bin\Debug\App_prestamos_deportivo.pdb
+E:\TODO\Programacion\Clone git\App_prestamo_deportivo\App_prestamos_deportivo\bin\Debug\MaterialSkin.dll
+E:\TODO\Programacion\Clone git\App_prestamo_deportivo\App_prestamos_deportivo\bin\Debug\Negocio.dll
+E:\TODO\Programacion\Clone git\App_prestamo_deportivo\App_prestamos_deportivo\bin\Debug\Negocio.pdb
+E:\TODO\Programacion\Clone git\App_prestamo_deportivo\App_prestamos_deportivo\obj\Debug\Presentacion.csproj.AssemblyReference.cache
+E:\TODO\Programacion\Clone git\App_prestamo_deportivo\App_prestamos_deportivo\obj\Debug\App_prestamos_deportivo.frm_login.resources
+E:\TODO\Programacion\Clone git\App_prestamo_deportivo\App_prestamos_deportivo\obj\Debug\App_prestamos_deportivo.frm_moduloUsuario.resources
+E:\TODO\Programacion\Clone git\App_prestamo_deportivo\App_prestamos_deportivo\obj\Debug\App_prestamos_deportivo.frm_implementos.resources
+E:\TODO\Programacion\Clone git\App_prestamo_deportivo\App_prestamos_deportivo\obj\Debug\App_prestamos_deportivo.frm_prestamos.resources
+E:\TODO\Programacion\Clone git\App_prestamo_deportivo\App_prestamos_deportivo\obj\Debug\App_prestamos_deportivo.Properties.Resources.resources
+E:\TODO\Programacion\Clone git\App_prestamo_deportivo\App_prestamos_deportivo\obj\Debug\Presentacion.csproj.GenerateResource.cache
+E:\TODO\Programacion\Clone git\App_prestamo_deportivo\App_prestamos_deportivo\obj\Debug\Presentacion.csproj.CoreCompileInputs.cache
+E:\TODO\Programacion\Clone git\App_prestamo_deportivo\App_prestamos_deportivo\obj\Debug\Presentacion.csproj.CopyComplete
+E:\TODO\Programacion\Clone git\App_prestamo_deportivo\App_prestamos_deportivo\obj\Debug\App_prestamos_deportivo.exe
+E:\TODO\Programacion\Clone git\App_prestamo_deportivo\App_prestamos_deportivo\obj\Debug\App_prestamos_deportivo.pdb
